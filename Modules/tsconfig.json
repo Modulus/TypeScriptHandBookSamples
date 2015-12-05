@@ -23,13 +23,8 @@
     "compileOnSave": true,
     "buildOnSave": false,
     "files": [
-        "arrayTypes.ts",
-        "classTypes.ts",
-        "extendingInterfaces.ts",
-        "functionTypes.ts",
-        "hybridTypes.ts",
-        "interfaces.ts",
-        "optionalProperties.ts"
+        "Tests.ts",
+        "validation.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

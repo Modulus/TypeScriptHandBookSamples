@@ -23,16 +23,7 @@
     "compileOnSave": true,
     "buildOnSave": false,
     "files": [
-        "BasicTypes/basicTypes.ts",
-        "Classes/classes.ts",
-        "Classes/inheritance.ts",
-        "Interfaces/arrayTypes.ts",
-        "Interfaces/classTypes.ts",
-        "Interfaces/extendingInterfaces.ts",
-        "Interfaces/functionTypes.ts",
-        "Interfaces/hybridTypes.ts",
-        "Interfaces/interfaces.ts",
-        "Interfaces/optionalProperties.ts"
+        "basicTypes.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
