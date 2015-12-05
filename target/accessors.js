@@ -11,7 +11,7 @@ var Employee = (function () {
                 this._fullName = newName;
             }
             else {
-                alert("Error: Unathorized update of employee!");
+                console.log("Error: Unathorized update of employee!");
             }
         },
         enumerable: true,
@@ -22,5 +22,5 @@ var Employee = (function () {
 var employee = new Employee();
 employee.fullName = "Bob Smith";
 if (employee.fullName) {
-    alert(employee.fullName);
+    console.log(employee.fullName);
 }
