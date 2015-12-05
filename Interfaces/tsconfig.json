@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "outDir": "../target",
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "files": [
+        "BasicTypes/basicTypes.ts",
+        "Classes/classes.ts",
+        "Classes/inheritance.ts",
+        "Interfaces/arrayTypes.ts",
+        "Interfaces/classTypes.ts",
+        "Interfaces/extendingInterfaces.ts",
+        "Interfaces/functionTypes.ts",
+        "Interfaces/hybridTypes.ts",
+        "Interfaces/interfaces.ts",
+        "Interfaces/optionalProperties.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
