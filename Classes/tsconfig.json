@@ -23,8 +23,10 @@
     "compileOnSave": true,
     "buildOnSave": false,
     "files": [
+        "accessors.ts",
         "classes.ts",
-        "inheritance.ts"
+        "inheritance.ts",
+        "modifiers.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

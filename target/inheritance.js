@@ -25,3 +25,19 @@ var Snake = (function (_super) {
     };
     return Snake;
 })(Animal);
+var Horse = (function (_super) {
+    __extends(Horse, _super);
+    function Horse(name) {
+        _super.call(this, name);
+    }
+    Horse.prototype.move = function (meters) {
+        if (meters === void 0) { meters = 45; }
+        alert("Galloping...");
+        _super.prototype.move.call(this, meters);
+    };
+    return Horse;
+})(Animal);
+var sam = new Snake("Sammy the Python");
+var tom = new Horse("Tomme the palomino");
+sam.move();
+tom.move(34);

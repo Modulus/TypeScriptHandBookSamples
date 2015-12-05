@@ -14,3 +14,18 @@ class Snake extends Animal {
     super.move(meters);
   }
 }
+
+
+class Horse extends Animal {
+  constructor(name: string){ super(name);}
+  move(meters = 45){
+    alert("Galloping...");
+    super.move(meters);
+  }
+}
+
+var sam = new Snake("Sammy the Python");
+var tom: Animal = new Horse("Tomme the palomino");
+
+sam.move();
+tom.move(34);
