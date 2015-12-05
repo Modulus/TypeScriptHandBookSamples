@@ -24,9 +24,11 @@
     "buildOnSave": false,
     "files": [
         "accessors.ts",
+        "advancedTechniques.ts",
         "classes.ts",
         "inheritance.ts",
-        "modifiers.ts"
+        "modifiers.ts",
+        "staticProperties.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
